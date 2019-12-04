@@ -1,3 +1,3 @@
-# IPFS_Chat_Web
+# MetaCoin Truffle Box
 
-IPFS 기반으로한 Web-Chat
+MetaCoin example Truffle project
