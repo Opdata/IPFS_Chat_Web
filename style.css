@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  line-height: 400px;
+  text-align: center;
+  vertical-align: middle;
+}
+#frm {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bigBox {
+  height: 100%;
+}
+
+#title {
+  border: 1px solid #000;
+  height: 5%;
+}
+
+#text-body {
+  border: 1px solid #000;
+  height: 80%;
+}
+
+#text-message {
+  padding: 0px;
+  margin: 0px;
+  width: 96%;
+  display: inline-block;
+}
+
+.btn {
+  float: right;
+  display: inline-block;
+}
