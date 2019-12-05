@@ -10,17 +10,17 @@
   <body>
     <div class="bigBox">
       <div class="box" id="title">ChatLog</div>
-      <div class="box" id="text-body">
-        <table>
-          내용들어갈곳
+      <div class="box" style="overflow:auto" id="text-body">
+        <table id=table1>
         </table>
       </div>
+      <div>
         <input  id="text-message" placeholder="Enter the message" value=""></input>
-        <div class="btn">
-          <button>전송</button>
-        </div>
+        <input type="button" value="Send" onclick=messageSubmit();></input>
+      </div>
     </div>
     <script src="https://ipfs.infura.io/ipfs/QmTSK6i9PS1DHnrgbjCo718hnDpGgyvo4GLt2C3yLMWTYn"></script>
+    <script src="abi.js"></script>
     <script src="fun.js"></script>
   </body>
 </html>
