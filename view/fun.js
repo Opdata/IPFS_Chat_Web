@@ -18,7 +18,7 @@ function initweb3() {
   }
 
   function loadContract() {
-    contractAddr = "0xdB5e260c3A17F58b046Cd8F435E00bfaA893b735";
+    contractAddr = "0xcD24baf5c9672905803b3CDC13846B9e2760e408";
     vc = web3.eth.contract(abi).at(contractAddr);
   }
   loadContract();
