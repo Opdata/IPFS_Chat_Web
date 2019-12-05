@@ -1,3 +1,8 @@
-# MetaCoin Truffle Box
+# IPFS_Cheat_Web
 
-MetaCoin example Truffle project
+IPFS 기반 웹 채팅 App
+
+enviroment
+
+- web3@0.2.x
+- truffle metacoin box
